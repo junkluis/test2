@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\NodelTest"
   ],
+  "SelectedNode": "\\NodelTest\\settings.py",
   "PreviewInSolutionExplorer": false
 }
