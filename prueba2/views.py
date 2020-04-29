@@ -2,4 +2,11 @@ from django.shortcuts import render
 
 # Create your views here.
 def index(request):
-    return render(request, 'prueba2/index.html', {})
+    dict = {}
+    dict["inicio"] = "inicio"
+    return render(request, 'prueba2/index.html', dict)
+
+def auth(request):
+    dict = {}
+    dict["inicio"] = "auth"
+    return render(request, 'prueba2/index.html', dict)
